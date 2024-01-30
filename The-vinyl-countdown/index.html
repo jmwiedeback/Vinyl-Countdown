@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Vinyl Countdown</title>
+    <link rel="stylesheet" href="./script.css">
+
+    <div class="brand-bar d-flex">
+        <h2>The Vinyl Count Down</h2>
+        <button onclick="logOut()" class=" btn log-in-btn" id="login">Log In</button>
+    </div>
+
+    <div class="nav-bar mb">
+        <div class="nav">
+            <ul class=" d-flex justify-start links-gap container">
+                <li>Home</li>
+                <li>Wishlist</li>
+                <li>Trending</li>
+            </ul>
+        </div>
+
+    </div>
+
+</head>
+
+<body>
+    <div class="container">
+        <h3>Today's Hot Pick</h3>
+
+        <div class="d-flex">
+
+            <div class="row container d-flex">
+                <div class="d-flex t-container padding img-div">
+
+                    <div class="img-div mr">
+                        <img src="./images/saturday-snakes.jpg" alt="Saturday Snakes" class="sat-snakes .img-div">
+                    </div>
+
+                    <div class="d-flex bd-padding">
+
+                        <div class="band-description-div display-block">
+                            <h2>Saturday Snakes</h2>
+                            <p class="band-description mb">
+                                "Saturday Snakes" by King Purple is a mind-bending journey through the gritty and
+                                pulsating
+                                heart of garage rock. From the first distorted riff to the last crashing cymbal, this
+                                album
+                                channels the raw energy of The White Stripes while injecting a unique, venomous charm of
+                                its
+                                own.
+                            </p>
+                            <p class="band-description mb">The opening track, "Sonic Serpent," slithers through your
+                                ears
+                                with
+                                a
+                                hypnotic guitar riff,
+                                setting the tone for the entire album. The lead singer's vocals are a perfect blend of
+                                snarl
+                                and
+                                swagger, reminiscent of Jack White at his prime. Tracks like "Electric Rattles" and
+                                "Rebel
+                                Reptile" showcase the band's ability to weave catchy melodies with unapologetic
+                                distortion,
+                                creating an infectious sonic concoction that will leave you hooked.</p>
+                            <p class="band-description mb">If you're a fan of garage rock that bites hard and refuses to
+                                let
+                                go,
+                                "Saturday Snakes" is
+                                the
+                                venomous antidote you've been waiting for.</p>
+                            <div class="btn-div display-block"><button onclick="removeElement(this)"
+                                    class="btn add-to-wishlist-btn"> Add to
+                                    Wishlist</button></div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <h2>Top Trending</h2>
+        <div class="row container d-flex">
+
+            <div class="card">
+                <img src="./images/aloft.jpg" class="card-img" alt="aloft">
+                <div class="card-body">
+                    <h4>Aloft</h4>
+                    <small>The Love Balloons</small>
+
+                    <div class="d-flex heart-likes">
+                        <div class="|"><img src="./images/heart.png" alt="heart" class="card-body-img"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+
+                <img src="./images/purr-for-me.jpg" class="card-img" alt=" Purr purr-for-me">
+                <div class="card-body">
+                    <h4>Aloft</h4>
+                    <small>The Love Balloons</small>
+
+                    <div class="d-flex heart-likes"><img src="./images/heart.png" alt="heart"></div>
+
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="./images/cubic-zirconia.jpg" class="card-img" alt=" Cubic Zirconia">
+
+                <div class="card-body">
+                    <h4>Aloft</h4>
+                    <small>The Love Balloons</small>
+
+                    <div class="d-flex heart-likes"><img src="./images/heart.png" alt="heart"></div>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="./images/rapid-transit.jpg" class="card-img" alt=" Rapid Transit">
+
+                <div class="card-body">
+                    <h4>Aloft</h4>
+                    <small>The Love Balloons</small>
+
+                    <div class="d-flex heart-likes"><img src="./images/heart.png" alt="heart"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities Clases Start */
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links-gap {
+  gap: 16px;
+}
+.gap {
+  gap: 20px;
+}
+.gap-sm {
+  gap: 10px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+.mt {
+  margin-top: 20px;
+}
+.mr {
+  margin-right: 19px;
+}
+.padding {
+  padding: 11px;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.display-block {
+  display: block;
+}
+/* Utilities Class Ends */
+
+/* li {
+  text-decoration: none;
+} */
+
+ul {
+  text-decoration: none;
+}
+
+.nav-bar {
+  background-color: yellow;
+}
+.brand-bar {
+  background-color: red;
+}
+.nav-links {
+  text-decoration: none;
+}
+p.band-description {
+  display: block;
+}
+.sat-snakes {
+  border: 2pxsolid black;
+  width: 240px;
+  /* margin-top: -44px; */
+}
+/* Button Classes Start */
+
+.add-to-wishlist-btn {
+  background-color: yellow;
+}
+
+.log-in-btn {
+  background-color: yellow;
+}
+
+/* Button Classes End */
+
+/* Card Classes Start */
+
+.card {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 11px;
+}
+.card-body {
+}
+.card-body-img {
+}
+.card-img {
+  width: 107px;
+}
+/* Card Classes End */
+
+.js-fs {
+  justify-self: flex-start;
+}
+
+.t-container {
+  border: 1px solid black;
+}
+
+.img-div {
+  justify-self: center;
+}
+
+.bd-padding {
+  padding: 10px;
+}
